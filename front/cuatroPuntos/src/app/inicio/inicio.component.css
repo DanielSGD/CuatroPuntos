@@ -1,0 +1,116 @@
+#fondoResult{
+  background-image: url('src/assets/images/fodoFuturista.jpg'); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+  background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+  background-attachment: fixed; /* Fijar la imagen de fondo */
+  /* Puedes ajustar otros estilos como el color de fuente y márgenes según sea necesario */
+  height: 100%;
+}
+
+
+
+#cartas{
+  display: flex;
+  flex-direction: column, column;
+
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+}
+.card{
+  margin-left: 20px;
+  background-color: #303F9F;
+  padding: 20px;
+  border-radius: 10px;
+ /*  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 20px #2196F3; */
+  margin: auto auto;
+  margin-top: 90px;
+  width: 20rem;
+  height: 400px;
+
+
+
+
+}
+
+#contenerdor{
+  background-color:whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 30px #512DA8;
+  margin: 0 auto;
+  max-width: 1200px;
+
+
+
+
+}
+
+@media screen and (max-height:768px) {
+
+  #contenerdor{
+    height: 100px;
+    max-width: 1000px;
+  }
+  #contImagen{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  img{
+    height: 120px;
+  }
+
+  .card{
+
+    width: 15rem;
+    height: 300px;  
+    font-size: 10px;
+
+  }
+  #image1{
+    height: 95px;
+  }
+  #image2{
+    height: 115px;
+  }
+
+}
+
+.card-img-top{
+  width: auto;
+  height: 170px;
+}
+
+#card1{
+  margin-right: 0;
+  background-color: #303F9F;
+}
+
+.card-title{
+  font-size: 30px;
+  font-weight: bold;
+  color: #1976D2;
+  /* text-shadow: 0 0 10px #2196F3; */
+}
+
+.card-text{
+  font-size: 15px;
+  color: #512DA8;
+  font-weight: bold;
+}
+
+.btn{
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+
+  font-size: 20px;
+
+}

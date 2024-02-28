@@ -1,0 +1,97 @@
+#fondoCorte{
+  background-image: url('src/assets/images/fondoAzul.jpg'); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+  background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+  background-attachment: fixed; /* Fijar la imagen de fondo */
+  /* Puedes ajustar otros estilos como el color de fuente y márgenes según sea necesario */
+  height: 100%;
+}
+
+
+
+#cortes{
+margin-top: 10%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 10px #536DFE;
+  width: 1900px;
+  font-family:Georgia, serif;;
+  height: auto;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.col{
+  margin-right: 20px;
+}
+
+#contResumen{
+
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 10px #536DFE;
+  width: 50%;
+  font-family:Georgia, serif;;
+  margin: 30px auto;
+
+  display: flex;
+  flex-direction: column column column;
+  font-weight: bold;
+
+}
+.card{
+  margin: auto;
+  color: #007bff;
+
+}
+
+.cabecera{
+
+  color: #007bff;
+}
+tr{
+  border:#007bff solid;
+  border-width: 1px;
+  height: 30px;
+  width: auto;
+
+}
+
+td{
+  width: auto;
+  font-size: 15px;
+}
+th{
+  width: auto;
+
+}
+
+#alert{
+  margin-top: 30px;
+
+
+}
+
+#mensajeAlert{
+  margin: 0 auto;
+}
+
+
+
+.table{
+  width: 800px
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+#emailHelp{
+  font-size: 15px;
+}
+#numeral{
+  font-size: 15px;
+}

@@ -1,0 +1,209 @@
+/* Estilos para el formulario en línea */
+#fondoComponent{
+  background-image: url('src/assets/images/fondoAzul.jpg'); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+  background-repeat: no-repeat; /* Evitar la repetición de la imagen */
+  background-attachment: fixed; /* Fijar la imagen de fondo */
+  /* Puedes ajustar otros estilos como el color de fuente y márgenes según sea necesario */
+}
+
+
+
+.formulario {
+  background-color:whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) ;
+  margin: 0 auto;
+  width: 1200px;
+  height: auto;
+  font-family:Georgia, serif;;
+  margin-top: 10px;
+
+}
+.input-text,
+.input-number {
+  padding: 10px;
+  border: 1px solid #666666;
+  background-color:#FFFFFF;
+
+  border-radius: 5px;
+  font-size: 20px;
+
+
+}
+#idRefe{
+  width: 30%;
+}
+
+.form-inline {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 10px; /* Ajusta el espaciado entre elementos en línea */
+  margin-top: 20px;
+}
+
+/* Estilos para los elementos del formulario */
+.campo,
+.input-text,
+.input-number {
+  width: 300px;
+  margin: 10px;
+  margin-right: 20px;
+  color: #757575;
+
+}
+.campo{
+  color: #1976D2;
+  font-weight: bold;
+  font-size: 20px;
+ /*  text-shadow: 0 0 10px #512DA8; */
+}
+h1 {
+  font-size: 45px; /* Tamaño de fuente */
+  font-weight: bold; /* Grosor de la fuente (negrita) */
+  color:#1976D2; /* Color del texto (cambia "#333" por el color que prefieras) */
+  text-align: center; /* Alineación del texto al centro */
+  text-transform: uppercase; /* Convertir el texto en mayúsculas */
+  /* text-shadow: 0 0 10px #1976D2; */
+}
+#numeroRollo {
+  display: block;
+}
+
+#tamanoTela {
+  display: block;
+}
+#referencia {
+  display: block;
+}
+
+#btnInsertar {
+  margin-top: 49px;
+  border-radius: 10px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+#logo{
+  width: 230px;
+  height: 130px;
+
+
+  }
+
+  #errorMensaje{
+    color: #212121;
+    text-align: end;
+    margin-right: 180px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family:Georgia, serif;;
+  }
+
+  #divTabla {
+    color: black; /* Texto en blanco */
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    width: 1200px;
+    font-family: Georgia, serif;
+
+  }
+
+   #tabla {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+.casilla{
+  border: 1px solid white; /* Bordes blancos */
+  padding: 8px;
+  color:black;
+  font-size: 18px;
+}
+ #encabezado{
+  background-color: #1976D2;
+ /*  background-color: #1c1682; */ /* Fondo de encabezados */
+  color: #FFFFFF;
+ }
+
+ #mensajeTabla {
+  background-color: rgb(222, 221, 220); /* Fondo del mensaje */
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: #757575;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+.error-message{
+  color: #212121;
+  font-size: 17px;
+  margin-left: 10px;
+  font-weight: bold;
+
+}
+
+#contImagen img {
+  display: block;
+  margin-left: 80%; /* Aplicar márgenes automáticos horizontalmente */
+}
+
+#ref{
+  margin-right: 490px;
+}
+#ancho{
+   margin-right:auto;
+  margin-left: auto
+}
+#alert{
+  width: auto;
+  height: 40px;
+  margin-top: 43px;
+
+
+}
+#alert_tex{
+  text-align: center;
+  font-size: 20px;
+}
+
+#configuracion{
+  margin-top: 25px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+
+
+}
+h3{
+  font-family: Georgia, serif;
+  color: #1976D2;
+  font-weight: bold;
+  font-size: 20px;
+
+
+}
+
+.form-check-inline{
+  margin-right: 30PX;
+  border: solid #1976D2;
+  border-style: dotted;
+  border-radius: 10px;
+  padding: 15px;
+  border-width: 5px;
+}
